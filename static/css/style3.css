@@ -1,0 +1,35 @@
+/* style3.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: midnightblue;
+    color: midnightblue;
+    margin: 0;
+    padding: 20px;
+    font-style: italic;;
+  }
+  
+  /* Article styles */
+  article {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph styles */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  

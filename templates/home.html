@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="{{url_for('routes', filename='about.html')}}">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Chris's Blog</h1>
+        <p>Welcome to my fitness and lifesyle blog!</p>
+        <br>
+        <div class="grid">
+            <img src="https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?cs=srgb&dl=black-and-white-man-person-791763.jpg&fm=jpg" width="450" height="300">
+            <img src="https://www.stockvault.net/data/2008/11/11/106597/preview16.jpg">
+          </div>
+        <br>
+        <a href="{{ url_for('posts.create_post') }}" class="link">Go to Post Page</a>
+    </body>
+</html>
+

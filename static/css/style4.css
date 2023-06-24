@@ -1,0 +1,16 @@
+body {
+    background-image: url("https://th.bing.com/th/id/R.de420d7a7c5d7de2963fdf5540b5c50d?rik=iDCm22STU%2b8Uvg&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
